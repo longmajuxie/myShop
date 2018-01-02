@@ -51,4 +51,12 @@ export class ListMasterPage {
       item: item
     });
   }
+  /**
+   *  扫码
+   */
+
+  qrscan() {
+    // this.modalController.create('ScanPage').present();
+    this.navCtrl.push('ScanPage');
+  }
 }
